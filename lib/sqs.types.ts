@@ -1,5 +1,5 @@
 import type { ConsumerOptions } from 'sqs-consumer';
-import type { Producer } from 'sqs-producer';
+import type { Producer } from 'sqs-producer-2';
 import type { SQS } from 'aws-sdk';
 import type { ModuleMetadata, Type } from '@nestjs/common';
 
