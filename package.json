@@ -24,7 +24,7 @@
     "@nestjs-plus/discovery": "^2.0.2",
     "aws-sdk": "^2.985.0",
     "sqs-consumer": "^5.6.0",
-    "sqs-producer": "git+https://github.com/victorbojica/sqs-producer.git"
+    "sqs-producer-2": "^2.1.2"
   },
   "devDependencies": {
     "@nestjs/common": "^8.0.6",
@@ -43,7 +43,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.1.0",
     "sqs-consumer": "^5.6.0",
-    "sqs-producer": "^2.1.0",
+    "sqs-producer-2": "^2.1.2",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "tsconfig-paths": "^3.9.0",

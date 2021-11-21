@@ -1,6 +1,6 @@
 import { Inject, Injectable, Logger, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
 import { Consumer } from 'sqs-consumer';
-import { Producer } from 'sqs-producer';
+import { Producer } from 'sqs-producer-2';
 import { Message, QueueName, SqsConsumerEventHandlerMeta, SqsMessageHandlerMeta, SqsOptions } from './sqs.types';
 import { DiscoveryService } from '@nestjs-plus/discovery';
 import { SQS_CONSUMER_EVENT_HANDLER, SQS_CONSUMER_METHOD, SQS_OPTIONS } from './sqs.constants';
